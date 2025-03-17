@@ -19,8 +19,6 @@ sudo systemctl enable nginx
 # Check nginx status
 sudo systemctl status nginx
 
-
-
 const http = require('http');
 
 const server = http.createServer((req, res) => {
